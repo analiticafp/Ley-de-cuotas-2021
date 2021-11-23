@@ -1,6 +1,6 @@
 <div class="row">
   <div class="column"><img src="https://github.com/analiticafp/Conflicto-de-intereses/blob/2154b2dc3f0b3c539b43a51c9fb71b9422a16f78/imagenes/layout_set_logo.png" align="left" alt="Función Pública"></div>
-  <div class="column" align="center"><div><b>Documentación proyecto analítica V.1</b><br>Ultima actualización: Junio de 2021</div>
+  <div class="column" align="center"><div><b>Documentación proyecto analítica V.1</b><br>Ultima actualización: Noviembre de 2021</div>
 </div>
 
 <br>
