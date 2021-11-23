@@ -1,4 +1,5 @@
-# Ley de cuotas
+<h1>Ley de cuotas</h1>
+<h2></h2>
 <ul>
   <li>Karol Wilfredo Camargo Vargas</li>
   <li>Camilo Alejandro Tamayo</li>
