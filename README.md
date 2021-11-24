@@ -19,7 +19,7 @@
 <p> .</p>
   
 <h2>Problema</h2>
-<p>Actualmente, según lo establece la Ley 2013 de 2019, Función Pública captura en el aplicativo dispuesto para ello, la infomación de declaraciones de bienes, rentas y conflictos de intereses de los sujetos obligados a declarar, la cual es un insumo importante para el desarrollo de acciones en torno a las políticas de transparencia, integridad, rendición de cuentas y control social; sin embargo, esta información, en particular la correspondiente a los posibles conflictos de interés, no es de fácil interpretación y no está siendo procesada ni analizada, dado que esto demanda tiempo y recursos para realizarlo.</p>
+<p>De conformidad con lo establecido en el artículo 12 de la Ley 581 del 2000 “Ley de Cuotas”, el Departamento Administrativo de la Función Pública presenta anualmente un informe sobre los porcentajes de participación de la mujer en los cargos de la administración pública del nivel directivo de los órdenes nacional y territorial, a cual se consolida a partir de una encuesta que se envía a las todas las entidades registradas en el SIGEP, sin embargo, debido a que todas las entidades realizan el reporte o no tienen en su planta cargos de libre nombramiento y remoción se dificulta el poder establecer un universo de entidades obligadas a reportar, y de esta manera realizar el seguimiento correspondiente para asegurar que todas las entidades obligadas realicen el reporte.</p>
 
 <h2>Justificación</h2>
 <p>La DPTSC tiene a su cargo las políticas de transparencia, integridad en el Servicio Público, así como las de rendición de cuentas y control social y asesora a las entidades en la identificación y gestión de los riesgos asociados a los posibles conflictos de interés, por lo que requiere identificar, categorizar, analizar y procesar los posibles conflictos de intereses que reportan los diferentes sujetos obligados, para desarrollar productos a partir de los resultados obtenidos, que contribuyan de forma efectiva a la toma de decisiones, definición de líneas de trabajo e insumos para la implementación de acciones en el marco de estas políticas.</p>
@@ -32,9 +32,17 @@
     <th>Marco contextual</th>
   </tr>
   <tr>
-    <td>Con la expedición de la Ley 2013 de 2019, la cual tiene por objeto: «Dar cumplimiento a los principios de transparencia y publicidad, y la promoción de la participación y control social a través de la publicación y divulgación proactiva de la declaración de bienes y rentas, del registro de conflictos de interés y la declaración del impuesto sobre la renta y complementarios», y establece en el artículo 4 que dicha información debe ser registrada en el SIGEP o las herramientas que lo sustituyan, Función Pública desarrolló el aplicativo de Ley 2013 de 2019.<br>
-Con el fin de que los sujetos obligados realicen sus declaraciones, este aplicativo presenta formularios diferenciados para persona natural y jurídica, divididos por secciones (información general, declaración de bienes y rentas, posibles conflictos de interes e impuesto sobre la renta y complementarios) en las cuales deben registrar su información en los términos descritos por la ley.</td>
-  </tr>
+<p>Teniendo en cuenta la relevancia de la igualdad de derechos, oportunidades y responsabilidades entre hombre y mujeres, el gobierno nacional expidió la siguiente normatividad relacionada con la igual de género:</p> <br>
+  
+<li type="circle">Ley 581 de 2000 Por la cual se reglamenta la adecuada y efectiva participación de la mujer en los niveles decisorios de las diferentes ramas y órganos del   poder público, de conformidad con los artículos 13, 40 y 43 de la Constitución Nacional.</li><br>
+    
+<li type="circle">Decreto 1083 de 2015, el cual establece reglas para garantizar la equidad y la igualdad de oportunidades de las mujeres en la provisión de los empleos de nivel directivo en la Rama Ejecutiva del orden nacional y territorial.</li><br>  
+  
+<li type="circle">CONPES 3918 de 2018 el cual define lineamientos para la efectiva implementación de los Objetivos de Desarrollo Sostenible (ODS) en Colombia y define una meta a través del indicador relacionado con el Máximo Nivel Decisorio (MND) y Otros Niveles Decisorios (OND) a través del indicador denominado participación de la mujer en los cargos directivos.</li><br>
+
+A partir de lo anterior y con el fin de dar cumplimiento a la normatividad anteriormente mencionada, Función Pública invita anualmente a las entidades publicas mediante circular externa para que suministren la información relacionada con la participación femenina en cargos de máximo nivel decisorio y otros niveles decisorios, mediante el diligenciamiento del aplicativo virtual desarrollarlo para tal fin. Una vez recepcionada la información se procede al cálculo del indicador, elaboración y publicación del informe correspondiente.</td>
+  
+  
 </table>
 <table>
   <tr>
@@ -73,28 +81,28 @@ Asegurar el registro de la declaración de bienes y rentas, de los posibles conf
 </div>
    
 <h2>Criterios de Éxito</h2>
-   <p>Desde el punto de vista de negocio, se puede considerar como criterio de éxito que todos los campos del aplicativo estén diligenciados correctamente y tengan correspondencia entre ellos, así como que la descripción del posible conflicto de interes identificado por los sujetos obligados sea clara y suficiente.</p>
+   <p>Desde el punto de vista de negocio, se puede considerar como criterio de éxito establecer un universo de entidades obligadas a reportar a partir de la definición de criterios diferenciales y lograr el reporte de 100% de la mismas.</p>
 
 <div>  
 <h2>Riesgos y contingencias</h2>
    <p>  
     <ul>
- <li type="circle">Inconsistencias en la base de datos. </li>
- <li type="circle">Insuficiencia de datos.</li>
-<li type="circle">Falta de claridad en la descripción del posible conflicto de interes que impida su identificación, clasificación y agrupación.</li>
+ <li type="circle">Información Incompleta. </li>
+ <li type="circle">No contar con informción historica.</li>
+<li type="circle">Información no estructurada.</li>
     <ul>  
    </p>
 </div>
   
 <h2>Costos y beneficios</h2>
-      <p>El desarrollo de este ejercicio de analítica de datos no genera costos para la entidad, dado que se realizará tomando como fuente de información la base de datos del aplicativo de Ley 2013 de 2019, desarrollado por la entidad para la captura de la información.<br>
-Como beneficios se pueden mencionar que el desarrollo de estos ejercicios es un valor agregado para la entidad al contar con información confiable y con procedimientos y metodologías reconocidas y estandarizadas que respaldan las cifras. De otra parte, se puede decir que con los resultados obtenidos en este ejercicio se realiza una identificación y clasificación de los posibles conflictos de interes de los sujetos obligados, así como aquellos que son más frecuentes, facilitando las asesorias a las entidades en la mitigación de los riesgos presentados por estos conflictos de interes identificados. </p>
+      <p>El desarrollo de este ejercicio de analítica de datos no genera costos para la entidad, dado que se realizará tomando como fuente de información la base de datos de captura depuradas por la dependencia y almacendas en el sistema de información estrategico SIE.<br>
+Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un valor agregado para la entidad al contar con información confiable, de fácil acceso, con procedimientos y metodologías reconocidas y estandarizadas que respaldan las cifras. De otra parte, se puede decir que con los resultados obtenidos se pueden identificar las entidades obligadas a reportar con el fin de aumentar el universo de entidades con las cuales se realiza el cálculo del indicador y confiabilidad del mismo, así mismo, se pueden  realizar seguimientos más detallados y dirigidos a unas entidades especificas para garantizar el reporte de información y el cumplimiento de la normatividad. </p>
 
  <div>
  <h2>Productos/Entregables</h2>
  <ul>
- <li type="circle">Identificación y parametrización de posibles conflictos de intereses.</li>
- <li type="circle">Analisis de posibles conflictos de intereses identificados y su relación con las variables relacionadas.</li>
+ <li type="circle">Base de datos con la identificación de las entidades obligadas a reportar .</li>
+ <li type="circle">Cálculo predictivo del comportamiento del indicador durante los siguientes 3 años.</li>
  <ul>
  </div>
    
