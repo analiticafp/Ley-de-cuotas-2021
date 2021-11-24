@@ -8,15 +8,15 @@
 
 <h2>Participantes</h2>
 <ul>
- <li type="circle">Diana, Analista de datos,  mibarra@funcionpublica.gov.co</li>
+ <li type="circle">Diana Rozo, Teámitco,  drozo@funcionpublica.gov.co</li>
  <li type="circle">Maritza Ibarra Duarte, Analista de datos,  mibarra@funcionpublica.gov.co</li>
  <li type="circle">Camilo Alejandro Tamayo Quintana, Analista de datos,  ctamayo@funcionpublica.gov.co</li>
- <li type="circle">Karol Wilfredo Camargo Vargas, Analista de negocio, lsanchez@funcionpublica.gov.co</li>
+ <li type="circle">Karol Wilfredo Camargo Vargas, Analista de negocio, kcamargo@funcionpublica.gov.co</li>
  <li type="circle">Miguel Sebastian Rincon Ortega, Analista de datos, mrincon@funcionpublica.gov.co</li>
 </ul>
   
 <h2>Resumen</h2>
-<p>Para el desarrollo de este ejercicio se tomó el reporte de ley 2013 y conflictos de interés diligenciado por los sujetos obligados para el periodo de 2021, con el fin de identificar y clasificar los posibles conflictos de interés que se puedan generar,en primer lugar se realizó un analisis exploratorio de toda la base de datos, procurando identificar las potenciales variables para el ejercicio de analítica. Se identificaron numerosos problemas de calidad de datos, que permiten suministrar recomendaciones para el aplicativo de recolección de información. Se realizó un análisis de potenciales conflictos de interés.  para lo cual se utilizo minería de texto para extraer aquellas frases y palabras que nos describen el posible conflicto de interés y finalmente se agruparon por categorías.</p>
+<p> .</p>
   
 <h2>Problema</h2>
 <p>Actualmente, según lo establece la Ley 2013 de 2019, Función Pública captura en el aplicativo dispuesto para ello, la infomación de declaraciones de bienes, rentas y conflictos de intereses de los sujetos obligados a declarar, la cual es un insumo importante para el desarrollo de acciones en torno a las políticas de transparencia, integridad, rendición de cuentas y control social; sin embargo, esta información, en particular la correspondiente a los posibles conflictos de interés, no es de fácil interpretación y no está siendo procesada ni analizada, dado que esto demanda tiempo y recursos para realizarlo.</p>
