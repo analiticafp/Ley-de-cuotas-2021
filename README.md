@@ -125,21 +125,14 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
     <td>Lenguaje de programación open source y con respaldo de una gran comunidad que permitirá emprender acciones de transformación y extracción de información útil para la toma de decisiones, bajo el ciclo de vida de ejercicios no supervisados se dictaminan las tareas principalmente de preparación de datos, aprendizaje, evaluación y perfilamiento de los datos.</td>
     <td>Notebook Jupyter (algoritmo): se emprende y explica el proceso para análisis de datos en el proyecto puede establecerse en formato PDF, HTML u otros para su consulta</td>
   </tr>
-  <tr>
-    <td>Weka</td>
-    <td>Es una plataforma de software para el aprendizaje automático y la minería de datos, escrita en Java y desarrollada en la Universidad de Waikato, que permite la aplicación de técnicas ya establecidas para el análisis de datos de una forma más rápida y es de código abierto.</td>
-    <td>Modelo y análisis generado por la aplicación en formato Arff.</td>
-  </tr>
 </table>
 
  
  <h2>Presentación y análisis de resultados</h2>
    
-<h3>Limpieza de datos</h3>
-  <p>Se analiza la información suministrada y se encuentran distintos problemas con el suministro de datos, en primer lugar los registros duplicados tanto en la base principal, como en las hojas subsecuentes, lo que dificulta ampliamente la consolidación de datos por cada individuo o razón social, se llegan a encontrar hasta 16 registros por documento de identidad solo en la base inicial. Un segundo aspecto es la no discriminación en la base inicial de personas naturales y jurídicas, ya que a partir de las bases adicionales es el NIT de las personas jurídicas el que permite realizar la indexación, sin embargo no se encuentra este dato en la base principal dificultando nuevamente la fácil discriminación en el conjunto de datos. 
-
-Por otra parte debido a que cada persona puede registrarse varias veces en el mismo aplicativo, bien sea por cambio en el tipo de informe, errores de diligenciamiento, o múltiple contratación, la información relacionada con bienes y rentas, así como las de conflictos de interés no cuentan con una estructura uniforme que permita utilizar métodos de análisis más robustos.
-En el proceso de limpieza de datos relacionados con bienes y rentas, se intentaron superar estos inconvenientes, sin embargo la calidad de los datos puede afectar de forma concreta el proceso de análisis de información.
+<h3>Preparación de datos</h3>
+  <p>Se realizo la integración en una base en Excel de la información asociada al indicador de ley de cuotas desde la vigencia 2004 hasta 2021, características de las entidades públicas presentes en SIGEP y vinculación en SIGEP por tipo de planta. Por otro lado, se eliminaron variables que bajo el criterio de los participantes del negocio no aportan a la consecución del proyecto.
+Es necesario realizar una descripción estadística de los datos que propende epor el conocimiento acerca de los datos.
 </p> 
    
    
