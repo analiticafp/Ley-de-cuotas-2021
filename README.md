@@ -187,12 +187,20 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   knn_model_feat.fit(X_train, y_train.values.ravel())
   ```
  <h3>Evaluación</h3>
-  
+ <p>La matriz de confusión nos muestra en este caso el resultado de la validación con el conjunto de prueba, el modelo “Random Forests” con una precisión del 87% y en su clasificación en general presenta mejores clasificaciones que el modelo entrenado con KNN.</p>
  <div>   
-<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/47a189c16535c671f91551d9d53c3378fbc15d8e/imagenes/rf-c.png" align="center" alt="Función Pública">
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/ba5e9b48fa20c80fa526e6c0fc645974d2b2ef3a/imagenes/rf-c.png" align="center" alt="Función Pública">
 </div> 
  <h3>Predicción futura</h3>
+  <p>Ahora bien se realiza la predicción utilizando el modelo con mejores resultados, se toma toda la base de entidades y se realiza su clasificación que se refleja en la columna “predicción” del conjunto de datos.</p>
+ 
+```python
+  df['PREDICT'] = random_forest_model_0.predict(dftest)
+  #Salida en excel
+  df.to_excel('predicted.xlsx', sheet_name='example')
+  ``` 
   
+  <p>Si en nuestra observación planteamos los que deben reportar se acerca a 4.133 entidades donde su estado no es “inactivo”.</p>
   
 
   
