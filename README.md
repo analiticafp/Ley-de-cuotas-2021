@@ -215,7 +215,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
    
 <li type="circle">Aunque existe información desactualziada en el SIGEP, este debería ser tenida en cuanta como la fuente primaria para la generación del indicador</li><br>  
   
-<li type="circle"> </li><br>
+<li type="circle">El modelo entrenado con el algoritmo “Random Forests” obtuvo una precisión del 87% superior al KNN lo que permitió clasificar 6.319 entidades encontrando un universo de posibles candidatos a reporte de ley de cuotas. </li><br>
   
 <li type="circle"> </li><br>
 
