@@ -236,5 +236,5 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <h2>Bibliografía</h2>  
 <ul>
 <li type="circle">[Steven Bid, Edwan Klein & Edward Loper] <i>Natural Language Processing with Python</i>. O'REILLY, 2009.</li>
-<li type="circle">[Dirección de Participación, Transparencia y Servicio al Ciudadano] <i>Guía para la identificación y declaración del conflicto de intereses en el sector público colombiano</i>. Función Pública, 2019.</li>
+<li type="circle">[Dirección de Empleo Público] <i>Informes de Ley de Cuotas</i>. Función Pública, 2020.</li>
 </ul>  
