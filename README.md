@@ -178,12 +178,12 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   ```python
   from sklearn.ensemble import RandomForestClassifier
   SEED = 42
-random_forest_model_0 = RandomForestClassifier(random_state = SEED)
-random_forest_model_0.fit(X_train, y_train.values.ravel())
+  random_forest_model_0 = RandomForestClassifier(random_state = SEED)
+  random_forest_model_0.fit(X_train, y_train.values.ravel())
   
   from sklearn.neighbors import KNeighborsClassifier
   knn_model_feat = KNeighborsClassifier(n_neighbors=3, n_jobs=-1)
-knn_model_feat.fit(X_train, y_train.values.ravel())
+  knn_model_feat.fit(X_train, y_train.values.ravel())
   ```
  <h3>Evaluación</h3>
  <h3>Predicción futura</h3>
