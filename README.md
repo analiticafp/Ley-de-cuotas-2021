@@ -200,9 +200,17 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   df.to_excel('predicted.xlsx', sheet_name='example')
   ``` 
   
-  <p>Si en nuestra observación planteamos los que deben reportar se acerca a 4.133 entidades donde su estado no es “inactivo”.</p>
+ <p>Si en nuestra observación planteamos los que deben reportar se acerca a 4.133 de 6.319 entidades donde su estado no es “inactivo”.</p>
   
-
+ <h3>Análisis resultado del indicador de ley de cuotas en vigencias posteriores - regresión lineal</h3>
+  
+   <div>   
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/84d6c33cd69acc817f0c893c44b58a806da795f3/imagenes/linear-r.png" align="center" alt="Función Pública">
+</div> 
+  
+<p>Para la predicción se utiliza la función lineal encontrada con los datos históricos, lo que refleja una aproximación al indicador para vigencias posteriores.  </p>
+  
+  
   
 <li type="circle">Pertenencia a asociaciones o sociedades, se encontró que se pueden unir los grupos 4 y 6 para un total de 95 registros para los cuales el análisis identifico que dentro de la descripción del posible conflicto de interés están presentes las palabras sociedad y empresas o vínculos</li>
   
