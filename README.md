@@ -187,6 +187,10 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   knn_model_feat.fit(X_train, y_train.values.ravel())
   ```
  <h3>Evaluación</h3>
+  
+ <div>   
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/47a189c16535c671f91551d9d53c3378fbc15d8e/imagenes/rf-c.png" align="center" alt="Función Pública">
+</div> 
  <h3>Predicción futura</h3>
   
   
