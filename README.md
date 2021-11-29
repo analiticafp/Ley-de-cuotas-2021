@@ -230,6 +230,8 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <li type="circle">Se sugiere realizar optimización en los modelos propuestos para obtener mejores resultados. </li><br> 
   
 <li type="circle">Se sugiere tener o mantener la misma estructura de los informes y de garantizar que las entidades o el universo aplicable a ley de cuotas tengan reportes frecuentes vigencia tras vigencia.</li><br> 
+  
+  <li type="circle">Se considera realizar validación cruzada para generalizar los datos, aunque su recurso computacional aumente el modelo podría generalizar mejor.</li><br> 
      
 <h2>Bibliografía</h2>  
 <ul>
