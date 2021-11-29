@@ -173,19 +173,6 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.3, random_state=1, stratify=Y)
   ```
  <h3>Aprendizaje</h3>
-  <p>La predicción es un problema de clasificación entre si debe reportar y no debe reportar de las entidades que aun desconocemos parte de su información, para este ejercicio se toman dos algoritmos de aprendizaje supervisado “KNN Classifiers” el cual aplica un método sencillo que utiliza las instancias de datos más similares para hacer la clasificación y “Random Forests” compuesto por arboles de decisión los cuales aportan a la clasificación final del modelo.</p>
-  <p>Los modelos finales y su configuración se exponen a continuación, tenga en cuenta que dichos modelos fueron evaluados para su mejor configuración en cuanto a precisión. </p>
-
-```python
-  from sklearn.ensemble import RandomForestClassifier
-  SEED = 42
-  random_forest_model_0 = RandomForestClassifier(random_state = SEED)
-  random_forest_model_0.fit(X_train, y_train.values.ravel())
-  
-  from sklearn.neighbors import KNeighborsClassifier
-  knn_model_feat = KNeighborsClassifier(n_neighbors=3, n_jobs=-1)
-  knn_model_feat.fit(X_train, y_train.values.ravel())
-  ```
  <h3>Evaluación</h3>
  <h3>Predicción futura</h3>
   
@@ -202,30 +189,23 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
       
    
 <h2>Conclusiones</h2>
-<p> Una vez analizadas la base de datos relacionada con la identificación de conflictos intereses por el reporte de Ley 2013, se concluye que la base de datos tiene problemas de calidad,lo que dificulta el procesamiento y el analisis de los datos, de otra parte, del total de hojas del archivo que contienen infomación de conflictos de interes no fue viable el analisis por analitica de texto</p>    
+<p> Una vez analizadas las bases de datos de los reportes de ley de coutas realizadas por las entidades en el aplicativo diseñado para tal fin, para el periodo de 2016 a 2020, se puede concluir que:</li><br> 
    
-<li type="circle">Globalmente se considera una posibilidad vincular el análisis de información de bienes y rentas al analisis de conflictos de interes, sin embargo se considera que con la estructura actual de los datos se requeriría otro enfoque de proyecto de análitica y revisión de calidad de datos, que requieran un trabajo mucho mas exhaustivo</li> 
+<li type="circle">Aunque existe información desactualziada en el SIGEP, este debería ser tenida en cuanta como la fuente primaria para la generación del indicador</li><br>  
   
-<li type="circle">En total se identificaron y clasificaron 1.113 posibles conflictos de interés descritos por los sujetos obligados en la sección correspondiente a cónyuge o compañero, representante legal, parientes y otros posibles conflictos de interés, de este total el 40% corresponde a relación con las partes seguido de un 25% pertenecientes a una organización y en menor participación se conflictos relacionados con participación directa, litigio o controversia y lista de candidatos</li> 
- 
-<li type="circle">Así mismo, se puede identificar que de los 1.113 conflictos de interés clasificados el 62% corresponde a sujetos obligados que manifiestan ser contratistas.</li> 
-
-<li type="circle">En la sección de marcación de conflicto de interés por litigio controversia o denuncia penal a pesar de que 43 sujetos obligados marcaron que si existe un posible conflicto solo existen dos descripciones relacionadas con el tema, en cuanto a los 41 restantes la descripción es que no existe ningún conflicto de interés.  Adicionalmente, se evidencia que, aunque existe esta sección en particular, los posibles conflictos de interés relacionados con este tema se reportaron en la sección de otros posibles conflictos e interés y no en la dispuesta para tal fin.</li> 
-          
-<li type="circle">En la sección de conflicto de interés por amistad o enemistad se encontraron 45 sujetos obligados que manifestar presentar un posible conflicto de interés por este tipo, sin embargo, las descripciones no corresponden a un posible conflicto de interés o son que no existe ningún conflicto.</li> 
-<li type="circle">El enfoque de entidades nombradas tiene un mejor resultado para los datos disponibles en el aplicativo con una clasificación del total de registros de un 49% superior al 38% del ejercicio realizado con el enfoque de bolsa de palabras. Por lo tanto, si añadimos más entidades nombradas al modelo que para este ejercicio conto con 40 entidades nombradas para 8 tipos de conflictos el rendimiento en su clasificación podría aumentar.</li>   
+<li type="circle"> </li><br>
+  
+<li type="circle"> </li><br>
 
 </ul>
  <h2>Recomendaciones</h2>
  <p>Desde la Oficina Asesora de Planeación y el equipo de trabajo que desarrollo este ejercicio se sugiere lo siguiente:</p>
   
-<li type="circle">Parametrizar el sistema de tal forma que no permita marcar un si y en la descripción incluir signos o simbolos o que no se tiene ningun conflicto de    interes</li> 
-<li type="circle">Reforzar capacitaciones con los sujetos obligados para el correcto diligenciamiento del aplicativo</li>
-<li type="circle">Establecer algún tipo de lista desplegable de conflictos de interes de acuerdo con la normatividad, con la cual los sujetos obligados se puedan identificar y de esta manera se facilia la clasificación de los posibles conflictos de interes</li> 
-<li type="circle">Analizar posibles cambios metodológicos que propendan por impedir la multiplicidad de registros, ya que esto afecta la calidad de los datos para futuros ejercicios de análisis</li> 
-<li type="circle">Llevar un registro central que permita resumir los principales resultados de las declaraciones de bienes y rentas, se debe pensar en una base de datos en un solo conjunto que permita simultaneamente visualizar los diferentes campos marcados por cada individuo.</li> 
-<li type="circle">El registro de personas naturales y juridicas deberia ser independiente uno de otro, sin embargo ante la dificultad que esto pueda generar, se sugiere mantener un indice numerico que permita en todas las bases de datos distinguir ambos tipos de declarantes.</li>
+<li type="circle">Realizar campañas de sensibilización con las entidades públicas de orden nacional y territorial para que realicen la actualización de los servidores públicos vinculados</li><br> 
+  
+<li type="circle">Se sugiere que la base de datos de vinculados de SIGEP sea incluida tambien como fuente para la generación del indicador de Ley de cuotas</li><br> 
 
+<li type="circle"> </li><br> 
      
 <h2>Bibliografía</h2>  
 <ul>
