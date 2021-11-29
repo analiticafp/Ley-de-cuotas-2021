@@ -138,8 +138,9 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  <div>   
 <img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/c3b7a2a0986a9ccfcc840f456a80eb1c608e5f2e/imagenes/conteo-frecuencia.png" align="center" alt="Función Pública">
 </div> 
-   
-<table>
+  
+<p>Vemos como en algunos casos según el valor de la variable la tendencia es que debe reportar tanto para el orden nacional y las cabezas de sector, además puede observarse según el tipo de institución, la clasificación orgánica y el nivel de institución valores dentro del dominio donde no se debe reportar.</p>
+<table align="center">
   <tr>
     <th>Variable</th>
     <th>Proporción de campos con valor (%)</th>
@@ -181,6 +182,9 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
     <td>100</td>
   </tr> 
    </table>
+   
+ <p>Ahora bien, para la limpieza de datos se evalúa la existencia de campos nulos o vacíos donde dichas variables serán objeto de un proceso de imputación.</p>  
+   
  <h3>Validación de datos</h3>
      
    <table>
