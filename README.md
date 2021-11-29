@@ -217,7 +217,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   
 <li type="circle">El modelo entrenado con el algoritmo “Random Forests” obtuvo una precisión del 87% superior al KNN lo que permitió clasificar 6.319 entidades encontrando un universo de posibles candidatos a reporte de ley de cuotas. </li><br>
   
-<li type="circle"> </li><br>
+<li type="circle">La regresión lineal permite hacer una predicción optimista y para 2021 el indicador tiende al 50%.</li><br>
 
 </ul>
  <h2>Recomendaciones</h2>
