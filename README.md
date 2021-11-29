@@ -136,7 +136,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <p>Observe en el siguiente grafico las frecuencias de las variables que fueron tenidas en cuenta para el ejercicio predictivo.</p> 
 
  <div>   
-<img src="https://github.com/analiticafp/Conflicto-de-intereses/blob/37a0e286ca8017f869555784b07997a888cf0869/imagenes/otros_posibles.png" align="center" alt="Función Pública">
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/c3b7a2a0986a9ccfcc840f456a80eb1c608e5f2e/imagenes/conteo-frecuencia.png" align="center" alt="Función Pública">
 </div> 
    
  <h3>Validación de datos</h3>
