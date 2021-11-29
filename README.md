@@ -209,18 +209,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 </div> 
   
 <p>Para la predicción se utiliza la función lineal encontrada con los datos históricos, lo que refleja una aproximación al indicador para vigencias posteriores.  </p>
-  
-  
-  
-<li type="circle">Pertenencia a asociaciones o sociedades, se encontró que se pueden unir los grupos 4 y 6 para un total de 95 registros para los cuales el análisis identifico que dentro de la descripción del posible conflicto de interés están presentes las palabras sociedad y empresas o vínculos</li>
-  
-  
-<li type="circle">Relación contractual o de negocios para el cual se unieron los registros del grupo 3 y 5 para un total de 133 sujetos obligados asociados a este conflicto de interés, donde primaron las palabras empresas y actividades agrícolas comerciales y económicas</li>
-  
 
-
-      
-   
 <h2>Conclusiones</h2>
 <p> Una vez analizadas las bases de datos de los reportes de ley de coutas realizadas por las entidades en el aplicativo diseñado para tal fin, para el periodo de 2016 a 2020, se puede concluir que:</li><br> 
    
