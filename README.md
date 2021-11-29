@@ -227,7 +227,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   
 <li type="circle">Se sugiere que la base de datos de vinculados de SIGEP sea incluida tambien como fuente para la generación del indicador de Ley de cuotas</li><br> 
 
-<li type="circle"> </li><br> 
+<li type="circle">Se sugiere realizar optimización en los modelos propuestos para obtener mejores resultados. </li><br> 
      
 <h2>Bibliografía</h2>  
 <ul>
