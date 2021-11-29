@@ -173,6 +173,18 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.3, random_state=1, stratify=Y)
   ```
  <h3>Aprendizaje</h3>
+  <p>La predicción es un problema de clasificación entre si debe reportar y no debe reportar de las entidades que aun desconocemos parte de su información, para este ejercicio se toman dos algoritmos de aprendizaje supervisado “KNN Classifiers” el cual aplica un método sencillo que utiliza las instancias de datos más similares para hacer la clasificación y “Random Forests” compuesto por arboles de decisión los cuales aportan a la clasificación final del modelo.</p>
+  <p>Los modelos finales y su configuración se exponen a continuación, tenga en cuenta que dichos modelos fueron evaluados para su mejor configuración en cuanto a precisión. </p>
+  ```python
+  from sklearn.ensemble import RandomForestClassifier
+  SEED = 42
+random_forest_model_0 = RandomForestClassifier(random_state = SEED)
+random_forest_model_0.fit(X_train, y_train.values.ravel())
+  
+  from sklearn.neighbors import KNeighborsClassifier
+  knn_model_feat = KNeighborsClassifier(n_neighbors=3, n_jobs=-1)
+knn_model_feat.fit(X_train, y_train.values.ravel())
+  ```
  <h3>Evaluación</h3>
  <h3>Predicción futura</h3>
   
