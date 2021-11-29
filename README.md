@@ -19,12 +19,7 @@
 <p>De conformidad con lo establecido en el artículo 12 de la Ley 581 del 2000 “Ley de Cuotas”, el Departamento Administrativo de la Función Pública presenta anualmente un informe sobre los porcentajes de participación de la mujer en los cargos de la administración pública del nivel directivo de los órdenes nacional y territorial, a cual se consolida a partir de una encuesta que se envía a las todas las entidades registradas en el SIGEP, sin embargo, debido a que todas las entidades realizan el reporte o no tienen en su planta cargos de libre nombramiento y remoción se dificulta el poder establecer un universo de entidades obligadas a reportar, y de esta manera realizar el seguimiento correspondiente para asegurar que todas las entidades obligadas realicen el reporte.</p>
 
 <h2>Justificación</h2>
-<p>En el marco de lo establecido en la Ley 581 de 2000, la participación adecuada de la mujer en los niveles del poder público se hará efectiva aplicando por parte de las autoridades nominadoras las siguientes reglas: a) mínimo el treinta por ciento (30%) de los cargos de máximo nivel decisorio, que trata el artículo 2, serán desempeñados por mujeres; b) mínimo el treinta por ciento (30%) de los cargos de otros niveles decisorios, que trata el artículo 3º, serán desempeñados por mujeres.
-  
-La participación de mujeres en cargos de niveles directivos en el Estado colombiano, de acuerdo con la última medición con corte a 10 de agosto de 2020, arrojó un 45% de participación de las mujeres en estas posiciones de liderazgo, lo que quiere decir que para la actual vigencia se debe sobrepasar este porcentaje y alcanzar un 48%.
-  
-Por lo anterior, se ha venido trabajando en la definición del universo de entidades que deben reportar con el fin de facilitar el ingreso de la información de manera asertiva y con calidad, además de llevar a cabo sensibilizaciones y asesorías a las entidades respecto al reporte que deben realizar.
-</p>
+<p>La DPTSC tiene a su cargo las políticas de transparencia, integridad en el Servicio Público, así como las de rendición de cuentas y control social y asesora a las entidades en la identificación y gestión de los riesgos asociados a los posibles conflictos de interés, por lo que requiere identificar, categorizar, analizar y procesar los posibles conflictos de intereses que reportan los diferentes sujetos obligados, para desarrollar productos a partir de los resultados obtenidos, que contribuyan de forma efectiva a la toma de decisiones, definición de líneas de trabajo e insumos para la implementación de acciones en el marco de estas políticas.</p>
   
  
  <h2>Marco de referencia</h2>
@@ -47,13 +42,13 @@ A partir de lo anterior y con el fin de dar cumplimiento a la normatividad anter
 <div>
 <h2>Objetivos</h2>
  <p><b>Obejtivos del Negocio</b><br>
-Identificar el universo de entidades que estén obligadas a reportar el porcentaje de vinculación de mujeres en cargos directivos del Estado Colombiano de acuerdo a lo establecido en la ley 581 de 2000.<br>
+Asegurar el registro de la declaración de bienes y rentas, de los posibles conflictos de interés y la declaración del impuesto sobre la renta y complementarios por parte de los sujetos obligados de la Ley 2013 de 2019 en el aplicativo dispuesto para ello, así como la publicación y divulgación proactiva de esta información.<br>
 
 <b>Objetivo de la Mineria de datos:</b><br>
  <ul>
- <li type="circle">o	Verificar los reportes, con el fin de mejorar la calidad de la información registrada. </li>
- <li type="circle">o	Generar informes de comportamiento en la evolución del indicador de cuotas.</li>
-<li type="circle">o	Generar cálculos predictivos mediante el análisis de los datos reportados por las entidades del orden nacional y territorial.</li>
+ <li type="circle">Identificar y clasificar los posibles conflictos de interes registrados por los sujetos obligados. </li>
+ <li type="circle">Parametrizar los posibles conflictos de interés registrados en el Aplicativo de Ley 2013 de 2019 para desarrollar productos y acciones en desarrollo de las políticas descritas.</li>
+<li type="circle">Analizar los perfiles y  las caracteristicas en común de los diferentes sujetos obligados que registran un posible conflicto de interes en el aplicativo.</li>
     <ul>
 </p>
 </div>
@@ -162,9 +157,14 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   </tr> 
    </table>
    
- <p>Ahora bien, para la limpieza de datos se evalúa la existencia de campos nulos o vacíos donde dichas variables serán objeto de un proceso de imputación.</p>  
-   
- <h3>Validación de datos</h3>
+ <p>Ahora bien, para la limpieza de datos se evalúa la existencia de campos nulos o vacíos donde dichas variables fueron objeto de un proceso de imputación.</p>  
+ <p>En el ejercicio fue necesario crear variables a partir de los dominios encontrados en algunas variables, variables de 1 y 0, esto ocurre para toda la base. De la misma forma se evalúan correlaciones con la variable “debe reportar” y las variables con una correlación baja menor a 0.1 se eliminan del modelo, ya para terminar se realizó balanceo de datos.</p>
+  
+  <div>   
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/eb273ed3d470211003a433d8f5240daa06029d16/imagenes/corr.png" align="center" alt="Función Pública">
+</div> 
+  
+ <h3>División de datos</h3>
      
    <table>
   <tr>
