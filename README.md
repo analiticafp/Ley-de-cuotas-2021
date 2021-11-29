@@ -131,8 +131,10 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  <h2>Presentación y análisis de resultados</h2>
    
 <h3>Preparación de datos</h3>
-  <p>Se realizo la integración en una base en Excel de la información asociada al indicador de ley de cuotas desde la vigencia 2004 hasta 2021, características de las entidades públicas presentes en SIGEP y vinculación en SIGEP por tipo de planta. Por otro lado, se eliminaron variables que bajo el criterio de los participantes del negocio no aportan a la consecución del proyecto.
-Es necesario realizar una descripción estadística de los datos que propende epor el conocimiento acerca de los datos.
+  <p>Se realizó la integración en una base en Excel de la información asociada al indicador de ley de cuotas desde la vigencia 2004 hasta 2021, características de las entidades públicas presentes en SIGEP y vinculación en SIGEP por tipo de planta. Por otro lado, se eliminaron variables que bajo el criterio de los participantes del negocio no aportan a la consecución del proyecto. Es necesario realizar una descripción estadística de los datos que propende por el conocimiento acerca de los datos.</p> 
+<br>
+<p>La base de las características de las entidades publicas tiene 6.403 registros asociados a entidades de orden nacional y territorial. Por otro lado, y para determinar si la entidad debe reportar la participación de la mujer en cargos directivos se tomaron datos de la vinculación de los servidores públicos del SIGEP según su tipo de cargo, en este caso si presenta o no cargos de libre nombramiento y remoción donde se tenía información de 2.893 de las 6.403 entidades.  
+Observe en el siguiente grafico las frecuencias de las variables que fueron tenidas en cuenta para el ejercicio predictivo.
 </p> 
    
    
