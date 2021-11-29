@@ -175,7 +175,8 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  <h3>Aprendizaje</h3>
   <p>La predicción es un problema de clasificación entre si debe reportar y no debe reportar de las entidades que aun desconocemos parte de su información, para este ejercicio se toman dos algoritmos de aprendizaje supervisado “KNN Classifiers” el cual aplica un método sencillo que utiliza las instancias de datos más similares para hacer la clasificación y “Random Forests” compuesto por arboles de decisión los cuales aportan a la clasificación final del modelo.</p>
   <p>Los modelos finales y su configuración se exponen a continuación, tenga en cuenta que dichos modelos fueron evaluados para su mejor configuración en cuanto a precisión. </p>
-  ```python
+
+```python
   from sklearn.ensemble import RandomForestClassifier
   SEED = 42
   random_forest_model_0 = RandomForestClassifier(random_state = SEED)
