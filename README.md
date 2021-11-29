@@ -139,10 +139,9 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/c3b7a2a0986a9ccfcc840f456a80eb1c608e5f2e/imagenes/conteo-frecuencia.png" align="center" alt="Función Pública">
 </div> 
    
-     <table>
+<table>
   <tr>
     <th>Variable</th>
-    <th>Número total de registros</th>
     <th>Proporción de campos con valor (%)</th>
   </tr>
   <tr>
