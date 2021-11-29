@@ -14,10 +14,7 @@
  <li type="circle">Karol Wilfredo Camargo Vargas, Analista de negocio, kcamargo@funcionpublica.gov.co</li>
  <li type="circle">Miguel Sebastian Rincon Ortega, Analista de datos, mrincon@funcionpublica.gov.co</li>
 </ul>
-  
-<h2>Resumen</h2>
-<p> .</p>
-  
+
 <h2>Problema</h2>
 <p>De conformidad con lo establecido en el artículo 12 de la Ley 581 del 2000 “Ley de Cuotas”, el Departamento Administrativo de la Función Pública presenta anualmente un informe sobre los porcentajes de participación de la mujer en los cargos de la administración pública del nivel directivo de los órdenes nacional y territorial, a cual se consolida a partir de una encuesta que se envía a las todas las entidades registradas en el SIGEP, sin embargo, debido a que todas las entidades realizan el reporte o no tienen en su planta cargos de libre nombramiento y remoción se dificulta el poder establecer un universo de entidades obligadas a reportar, y de esta manera realizar el seguimiento correspondiente para asegurar que todas las entidades obligadas realicen el reporte.</p>
 
@@ -42,30 +39,6 @@
 
 A partir de lo anterior y con el fin de dar cumplimiento a la normatividad anteriormente mencionada, Función Pública invita anualmente a las entidades publicas mediante circular externa para que suministren la información relacionada con la participación femenina en cargos de máximo nivel decisorio y otros niveles decisorios, mediante el diligenciamiento del aplicativo virtual desarrollarlo para tal fin. Una vez recepcionada la información se procede al cálculo del indicador, elaboración y publicación del informe correspondiente.</td>
   
-  
-</table>
-<table>
-  <tr>
-    <th colspan="3">Estado del arte</th>
-  </tr>
-  <tr>
-    <th>Título</th>
-    <th>Descripción/Resumen</th>
-    <th>Referencia Bibliográfica</th>
-  </tr>
-  <tr>
-    <td>CLASIFICACIÓN DE DOCUMENTOS DEL DIARIO OFICIAL MEDIANTE ANÁLISIS DE TEXTO – ACTUALIZACIÓN</td>
-    <td>Se actualizó el modelo para clasificar la producción normativa emitida por el Diario Oficial en 9 sectores productivos, mediante la lectura, limpieza y procesamiento de textos con los cuales se entrenaron numerosos modelos de aprendizaje de máquina.</td>
-    <td><a href="https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Digital/Big%20Data/2020/03_Mejora_regulatoria_2020/Mejora_regulatoria_2020_Informe.pdf">Link</a></td>
-  </tr>
-  <tr>
-    <td>DENTIFICACIÓN DE USO DE PROYECTOS TIPO CON SIMILITUD DE TEXTO</td>
-    <td>Se buscó determinar una forma de medir el uso de la información de proyectos tipo, en proyectos que ya son viables y que, aunque no tienen una marcación especifica como “proyecto tipo”  han basado su formulación en el uso de información, esto mediante comparación de los proyectos tipo y viables.</td>
-    <td><a href="https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Digital/Big%20Data/2020/20_Similitud_proyectos_tipo/Similitud_proyectos_tipo_Informe_final.pdf">Link</a></td>
-  </tr>
-  
-</table>  
-
 <div>
 <h2>Objetivos</h2>
  <p><b>Obejtivos del Negocio</b><br>
@@ -107,8 +80,9 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  </div>
    
  <h2>Metodología y Alcance</h2>
-   <p><b>Metodología:</b>  Para el desarrollo de este ejercicio se aplicará la metodologia Crisp DM, en la cual se inicia con con análisis y entendimiento del negocio y objetivos del ejercicios y, posteriormente, se realiza una revisión y entendimiento de los datos y preparación de los mismos, para luego pasar a la fase de modelamiento donde se aplican las técnicas estadísticas y algoritmos desarrollados para dar cumplimiento a los objetivos. Para este caso puntal, se aplicará analítica de texto y, finalmente, se realizará la evaluación del modelo y se procederá a la entrega de resultados e informe final.<br>
-<b>Alcance:</b>  Para este ejercicio se aplicarán técnicas de mineria de datos a la información de la base de datos más reciente del aplicativo, correspondiente a aquellos sujetos obligados (persona natural y jurídica) que manifestaron un posible conflicto de interes en el formulario dispuesto para tal fin.</p>
+   <p><b>Metodología:</b>  Para el desarrollo de este ejercicio se aplicará la metodologia Crisp DM, en la cual se inicia con con análisis y entendimiento del negocio y objetivos del ejercicios y, posteriormente, se realiza una revisión y entendimiento de los datos y preparación de los mismos, para luego pasar a la fase de modelamiento donde se aplican las técnicas estadísticas y algoritmos desarrollados para dar cumplimiento a los objetivos. Para este caso puntal, se aplicará analítica de texto y, finalmente, se realizará la evaluación del modelo y se procederá a la entrega de resultados e informe final.</li><br>
+   
+<b>Alcance:</b>  Para este ejercicio se aplicarán técnicas de mineria de datos a la información de las bases de datos de reporte de Ley de cuotas realizado por las entidades públicas desde el año 2016 a 2020, asi como la base de todas la entidades publicas diponible en el SIGEP y la base de servidores públicos vinculados.</p>
 
 <h2>Recursos tecnológicos del proyecto</h2>
 <table>
