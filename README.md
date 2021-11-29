@@ -139,6 +139,49 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/c3b7a2a0986a9ccfcc840f456a80eb1c608e5f2e/imagenes/conteo-frecuencia.png" align="center" alt="Función Pública">
 </div> 
    
+     <table>
+  <tr>
+    <th>Variable</th>
+    <th>Número total de registros</th>
+    <th>Proporción de campos con valor (%)</th>
+  </tr>
+  <tr>
+    <td>COD_INSTITUCION</td>
+    <td>100</td>
+  </tr> 
+    <tr>
+    <td>NOMBRE</td>
+    <td>100</td>
+  </tr> 
+       <tr>
+    <td>CATEGORIAMUNI</td>
+    <td>99.8</td>
+  </tr> 
+           <tr>
+    <td>CLASIFICACION_ORGANICA</td>
+    <td>100</td>
+  </tr> 
+           <tr>
+    <td>NATURALEZA_JURIDICA</td>
+    <td>100</td>
+  </tr> 
+           <tr>
+    <td>ORDEN</td>
+    <td>100</td>
+  </tr> 
+           <tr>
+    <td>ES_CABEZA_S</td>
+    <td>99.5</td>
+  </tr> 
+           <tr>
+    <td>NIVEL_INSTITUCION</td>
+    <td>100</td>
+  </tr> 
+           <tr>
+    <td>TIPO_INSTITUCION</td>
+    <td>100</td>
+  </tr> 
+   </table>
  <h3>Validación de datos</h3>
      
    <table>
