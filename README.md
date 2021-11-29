@@ -168,10 +168,10 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   
   <p>Se realizó una división simple de 70% entrenamiento y 30% de prueba con los parámetros mostrados a continuación.</p>
   
-     ```python
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.3, random_state=1, stratify=Y)
-```
+```python
+  from sklearn.model_selection import train_test_split
+  X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.3, random_state=1, stratify=Y)
+  ```
      
    <table>
   <tr>
