@@ -51,9 +51,9 @@ Identificar el universo de entidades que estén obligadas a reportar el porcenta
 
 <b>Objetivo de la Mineria de datos:</b><br>
  <ul>
- <li type="circle">Identificar y clasificar los posibles conflictos de interes registrados por los sujetos obligados. </li>
- <li type="circle">Parametrizar los posibles conflictos de interés registrados en el Aplicativo de Ley 2013 de 2019 para desarrollar productos y acciones en desarrollo de las políticas descritas.</li>
-<li type="circle">Analizar los perfiles y  las caracteristicas en común de los diferentes sujetos obligados que registran un posible conflicto de interes en el aplicativo.</li>
+ <li type="circle">Verificar los reportes, con el fin de mejorar la calidad de la información registrada. </li>
+ <li type="circle">Generar informes de comportamiento en la evolución del indicador de cuotas.</li>
+<li type="circle">Generar cálculos predictivos mediante el análisis de los datos reportados por las entidades del orden nacional y territorial.</li>
     <ul>
 </p>
 </div>
