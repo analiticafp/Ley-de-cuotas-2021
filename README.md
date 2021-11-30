@@ -20,7 +20,9 @@
 
 <h2>Justificación</h2>
 <p>En el marco de lo establecido en la Ley 581 de 2000, la participación adecuada de la mujer en los niveles del poder público se hará efectiva aplicando por parte de las autoridades nominadoras las siguientes reglas: a) mínimo el treinta por ciento (30%) de los cargos de máximo nivel decisorio, que trata el artículo 2, serán desempeñados por mujeres; b) mínimo el treinta por ciento (30%) de los cargos de otros niveles decisorios, que trata el artículo 3º, serán desempeñados por mujeres.
+  
 La participación de mujeres en cargos de niveles directivos en el Estado colombiano, de acuerdo con la última medición con corte a 10 de agosto de 2020, arrojó un 45% de participación de las mujeres en estas posiciones de liderazgo, lo que quiere decir que para la actual vigencia se debe sobrepasar este porcentaje y alcanzar un 48%.
+  
 Por lo anterior, se ha venido trabajando en la definición del universo de entidades que deben reportar con el fin de facilitar el ingreso de la información de manera asertiva y con calidad, además de llevar a cabo sensibilizaciones y asesorías a las entidades respecto al reporte que deben realizar.
 </p>
   
@@ -45,7 +47,7 @@ A partir de lo anterior y con el fin de dar cumplimiento a la normatividad anter
 <div>
 <h2>Objetivos</h2>
  <p><b>Obejtivos del Negocio</b><br>
-Asegurar el registro de la declaración de bienes y rentas, de los posibles conflictos de interés y la declaración del impuesto sobre la renta y complementarios por parte de los sujetos obligados de la Ley 2013 de 2019 en el aplicativo dispuesto para ello, así como la publicación y divulgación proactiva de esta información.<br>
+Identificar el universo de entidades que estén obligadas a reportar el porcentaje de vinculación de mujeres en cargos directivos del Estado Colombiano de acuerdo a lo establecido en la ley 581 de 2000.<br>
 
 <b>Objetivo de la Mineria de datos:</b><br>
  <ul>
