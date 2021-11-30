@@ -208,7 +208,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  <p>Si en nuestra observación planteamos los que deben reportar se acerca a 4.133 de 6.319 entidades donde su estado no es “inactivo”.</p>
   
  <h3>Análisis resultado del indicador de ley de cuotas en vigencias posteriores - regresión lineal</h3>
-  
+<p>Teniendo en cuenta el reporte de ley de cuotas desde 2004 hasta 2021, se toma el cálculo del porcentaje de participación femenina en niveles decisorios para construir una relación lineal simple. El resultado de la regresión lineal es una ecuación lineal que permite identificar como parámetro de mayor utilidad la pendiente y con ello el aumento porcentual promedio por año del indicador. En los puntos verdes se indica el aumento de la cuota femenina para los años 2022, 2023,2024 y 2025 si se hiciera uso de este modelo.  </p>  
    <div>   
 <img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/84d6c33cd69acc817f0c893c44b58a806da795f3/imagenes/linear-r.png" align="center" alt="Función Pública">
 </div> 
