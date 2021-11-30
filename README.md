@@ -222,7 +222,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   
 <li type="circle">El modelo entrenado con el algoritmo “Random Forests” obtuvo una precisión del 87% superior al KNN lo que permitió clasificar 6.319 entidades encontrando un universo de posibles candidatos a reporte de ley de cuotas. </li><br>
   
-<li type="circle">La regresión lineal permite hacer una predicción optimista y para 2021 el indicador tiende al 50%.</li><br>
+<li type="circle">La regresión lineal simple presenta importantes limitaciones como herramienta predictiva, sin embargo para el caso de estudio muestra un escenario de aumento constante del indicador de participación femenina en cargos de niveles decisorios, en donde aún así se mantendría por debajo del 50% en los próximos 3 años.</li><br>
 
 </ul>
  <h2>Recomendaciones</h2>
@@ -236,7 +236,9 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   
 <li type="circle">Se sugiere tener o mantener la misma estructura de los informes y de garantizar que las entidades o el universo aplicable a ley de cuotas tengan reportes frecuentes vigencia tras vigencia.</li><br> 
   
-  <li type="circle">Se considera realizar validación cruzada para generalizar los datos, aunque su recurso computacional aumente el modelo podría generalizar mejor.</li><br> 
+<li type="circle">Se considera realizar validación cruzada para generalizar los datos, aunque su recurso computacional aumente el modelo podría generalizar mejor.</li><br> 
+
+ 
      
 <h2>Bibliografía</h2>  
 <ul>
