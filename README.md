@@ -192,7 +192,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   knn_model_feat.fit(X_train, y_train.values.ravel())
   ```
  <h3>Evaluación</h3>
- <p>La matriz de confusión nos muestra en este caso el resultado de la validación con el conjunto de prueba, el modelo “Random Forests” con una precisión del 87% y en su clasificación en general presenta mejores clasificaciones que el modelo entrenado con KNN.</p>
+ <p>La matriz de confusión nos muestra en este caso el resultado de la validación con el conjunto de prueba, el modelo “KNN” con una precisión del 85% y en su clasificación en general presenta mejores clasificaciones que el modelo entrenado con “Random Forests”.</p>
  <div>   
 <img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/f9981bb1f352bbad2eca1e64e05bab8550f49ba3/imagenes/rf-c.png" align="center" alt="Función Pública">
 </div> 
@@ -205,7 +205,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   df.to_excel('predicted.xlsx', sheet_name='example')
   ``` 
   
- <p>Si en nuestra observación planteamos los que deben reportar se acerca a 4.133 de 6.319 entidades donde su estado no es “inactivo”.</p>
+ <p>Si en nuestra observación planteamos los que deben reportar se acerca a 3.327 de 6.319 entidades donde su estado no es “inactivo”.</p>
   
  <h3>Análisis resultado del indicador de ley de cuotas en vigencias posteriores - regresión lineal</h3>
 <p>Teniendo en cuenta el reporte de ley de cuotas desde 2004 hasta 2021, se toma el cálculo del porcentaje de participación femenina en niveles decisorios para construir una relación lineal simple. El resultado de la regresión lineal es una ecuación lineal que permite identificar como parámetro de mayor utilidad la pendiente y con ello el aumento porcentual promedio por año del indicador. En los puntos verdes se indica el aumento de la cuota femenina para los años 2022, 2023,2024 y 2025 si se hiciera uso de este modelo.  </p>  
