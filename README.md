@@ -115,7 +115,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <p>Observe en el siguiente grafico las frecuencias de las variables que fueron tenidas en cuenta para el ejercicio predictivo.</p> 
 
  <div>   
-<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/c3b7a2a0986a9ccfcc840f456a80eb1c608e5f2e/imagenes/conteo-frecuencia.png" align="center" alt="Función Pública">
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/f9981bb1f352bbad2eca1e64e05bab8550f49ba3/imagenes/conteo-frecuencia.png" align="center" alt="Función Pública">
 </div> 
   
 <p>Vemos como en algunos casos según el valor de la variable la tendencia es que debe reportar tanto para el orden nacional y las cabezas de sector, además puede observarse según el tipo de institución, la clasificación orgánica y el nivel de institución valores dentro del dominio donde no se debe reportar.</p>
@@ -166,7 +166,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  <p>En el ejercicio fue necesario crear variables a partir de los dominios encontrados en algunas variables, variables de 1 y 0, esto ocurre para toda la base. De la misma forma se evalúan correlaciones con la variable “debe reportar” y las variables con una correlación baja menor a 0.1 se eliminan del modelo, ya para terminar se realizó balanceo de datos.</p>
   
   <div>   
-<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/eb273ed3d470211003a433d8f5240daa06029d16/imagenes/corr.png" align="center" alt="Función Pública">
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/f9981bb1f352bbad2eca1e64e05bab8550f49ba3/imagenes/corr.png" align="center" alt="Función Pública">
 </div> 
   
  <h3>División de datos</h3>
@@ -194,7 +194,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  <h3>Evaluación</h3>
  <p>La matriz de confusión nos muestra en este caso el resultado de la validación con el conjunto de prueba, el modelo “Random Forests” con una precisión del 87% y en su clasificación en general presenta mejores clasificaciones que el modelo entrenado con KNN.</p>
  <div>   
-<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/ba5e9b48fa20c80fa526e6c0fc645974d2b2ef3a/imagenes/rf-c.png" align="center" alt="Función Pública">
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/f9981bb1f352bbad2eca1e64e05bab8550f49ba3/imagenes/rf-c.png" align="center" alt="Función Pública">
 </div> 
  <h3>Predicción futura</h3>
   <p>Ahora bien se realiza la predicción utilizando el modelo con mejores resultados, se toma toda la base de entidades y se realiza su clasificación que se refleja en la columna “predicción” del conjunto de datos.</p>
