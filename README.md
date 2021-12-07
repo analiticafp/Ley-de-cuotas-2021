@@ -216,10 +216,13 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <p>Para la predicción se utiliza la función lineal encontrada con los datos históricos, lo que refleja una aproximación al indicador para vigencias posteriores.  </p>
 
 <h2>Conclusiones</h2>
-<p> Una vez analizadas las bases de datos de los reportes de ley de coutas realizadas por las entidades en el aplicativo diseñado para tal fin, para el periodo de 2016 a 2020, se puede concluir que:</li><br> 
+<p> Una vez analizadas las bases de datos de los reportes de ley de coutas realizadas por las entidades en el aplicativo diseñado para tal fin, para el periodo de 2016 a 2020, se puede concluir que:</p><br> 
    
-<li type="circle">El resultado de las entidades que no deben repotar en su mayoría corresponden a Asambleas departamentales, consejos municipales, personerias municipales de municipios de 5 y 6 categoria </li><br>  
-<div><img src="https://https://github.com/analiticafp/Ley-de-cuotas-2021/blob/fece5c9ba6ab8a7933a61a176f8aefaee0678a42/imagenes/Entidades-que-no-deben-reportar.jpg" align="center" alt="Función Pública">
+<li type="circle">El resultado de las entidades que no deben repotar en su mayoría corresponden a Asambleas departamentales, consejos municipales, personerias municipales de municipios de 5 y 6 categoria </li>
+ <br>  
+
+ <div>   
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/4a6be97316f6334d45d8bd1766c162e55359a031/imagenes/Entidades-que-no-deben-reportar.jpg" align="center" alt="Función Pública">
 </div> 
   
 <li type="circle">El modelo entrenado con el algoritmo “KNN” obtuvo una precisión del 85% igual al “Random Forests” lo que permitió clasificar 6.319 entidades encontrando un universo de posibles candidatos a reporte de ley de cuotas donde 3.646 entidades deben reportar. </li><br>
