@@ -233,14 +233,14 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  <h2>Recomendaciones</h2>
  <p>Desde la Oficina Asesora de Planeación y el equipo de trabajo que desarrollo este ejercicio se sugiere lo siguiente:</p>
   
-<li type="circle">Realizar campañas de sensibilización con las entidades públicas de orden nacional y territorial para que realicen la actualización de los servidores públicos vinculados</li><br> 
+<li type="circle">Fortalecer campañas de sensibilización con las entidades públicas de orden nacional y territorial para que realicen la actualización de los servidores públicos vinculados</li><br> 
   
-<li type="circle">Se sugiere que la base de servidores vincualdos del SIGEP se tenga en como la fuente primaria para la generación del indicador, dado que de acuerdo con el analisis realizado representa el 91% del universo de entidades que deberian reportar</li><br> 
+<li type="circle">Se sugiere que la base de servidores vinculados del SIGEP se tenga en como la fuente primaria para la generación del indicador, dado que de acuerdo con el análisis realizado representa el 91% del universo de entidades que deberían reportar</li><br> 
 
   
 <li type="circle">Se sugiere tener o mantener la misma estructura de los informes y de garantizar que las entidades o el universo aplicable a ley de cuotas tengan reportes frecuentes vigencia tras vigencia.</li><br> 
   
-<li type="circle">Se considera realizar validación cruzada para generalizar los datos, aunque su recurso computacional aumente el modelo podría generalizar mejor.</li><br> 
+<li type="circle">Se sugiere realizar validación de 173 entidades de orden territorial con categoría municipal 5 y 6 que no han realizado reporte en años anteriores y tampoco se encuentran en el SIGEP y el modelo predice que para años siguientes deberían reportar.</li><br> 
 
  
      
