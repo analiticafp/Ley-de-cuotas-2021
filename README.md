@@ -218,7 +218,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <h2>Conclusiones</h2>
 <p> Una vez analizadas las bases de datos de los reportes de ley de coutas realizadas por las entidades en el aplicativo diseñado para tal fin, para el periodo de 2016 a 2020, se puede concluir que:</li><br> 
    
-<li type="circle">El resultado de las entidades que no deben repotar en su mayoría </li><br>  
+<li type="circle">El resultado de las entidades que no deben repotar en su mayoría corresponden a Asambleas departamentales, consejos municipales, personerias municipales de municipios de 5 y 6 categoria </li><br>  
   
 <li type="circle">El modelo entrenado con el algoritmo “KNN” obtuvo una precisión del 85% igual al “Random Forests” lo que permitió clasificar 6.319 entidades encontrando un universo de posibles candidatos a reporte de ley de cuotas donde 3.646 entidades deben reportar. </li><br>
   
