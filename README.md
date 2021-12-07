@@ -194,7 +194,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
  <h3>Evaluación</h3>
  <p>La matriz de confusión nos muestra en este caso el resultado de la validación con el conjunto de prueba, el modelo “KNN” con una precisión del 85% y en su clasificación en general presenta mejores clasificaciones que el modelo entrenado con “Random Forests”.</p>
  <div>   
-<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/f9981bb1f352bbad2eca1e64e05bab8550f49ba3/imagenes/rf-c.png" align="center" alt="Función Pública">
+<img src="https://github.com/analiticafp/Ley-de-cuotas-2021/blob/17177b9d78645ece32859ea946b7d9cc6015449d/imagenes/rf-c.png" align="center" alt="Función Pública">
 </div> 
  <h3>Predicción futura</h3>
   <p>Ahora bien se realiza la predicción utilizando el modelo con mejores resultados, se toma toda la base de entidades y se realiza su clasificación que se refleja en la columna “predicción” del conjunto de datos.</p>
