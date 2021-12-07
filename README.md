@@ -51,8 +51,8 @@ Identificar el universo de entidades que estén obligadas a reportar el porcenta
 
 <b>Objetivo de la Mineria de datos:</b><br>
  <ul>
- <li type="circle">Verificar los reportes, con el fin de mejorar la calidad de la información registrada. </li>
- <li type="circle">Generar informes de comportamiento en la evolución del indicador de cuotas.</li>
+
+ <li type="circle">Realizar analisis de de comportamiento en la evolución del indicador de cuotas.</li>
 <li type="circle">Generar cálculos predictivos mediante el análisis de los datos reportados por las entidades del orden nacional y territorial.</li>
     <ul>
 </p>
@@ -218,7 +218,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 <h2>Conclusiones</h2>
 <p> Una vez analizadas las bases de datos de los reportes de ley de coutas realizadas por las entidades en el aplicativo diseñado para tal fin, para el periodo de 2016 a 2020, se puede concluir que:</li><br> 
    
-<li type="circle">Aunque existe información desactualziada en el SIGEP, este debería ser tenida en cuanta como la fuente primaria para la generación del indicador</li><br>  
+<li type="circle">El resultado de las entidades que no deben repotar en su mayoría </li><br>  
   
 <li type="circle">El modelo entrenado con el algoritmo “KNN” obtuvo una precisión del 85% igual al “Random Forests” lo que permitió clasificar 6.319 entidades encontrando un universo de posibles candidatos a reporte de ley de cuotas donde 3.646 entidades deben reportar. </li><br>
   
@@ -230,9 +230,8 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   
 <li type="circle">Realizar campañas de sensibilización con las entidades públicas de orden nacional y territorial para que realicen la actualización de los servidores públicos vinculados</li><br> 
   
-<li type="circle">Se sugiere que la base de datos de vinculados de SIGEP sea incluida tambien como fuente para la generación del indicador de Ley de cuotas</li><br> 
+<li type="circle">Se sugiere que la base de servidores vincualdos del SIGEP se tenga en como la fuente primaria para la generación del indicador, dado que de acuerdo con el analisis realizado representa el 91% del universo de entidades que deberian reportar</li><br> 
 
-<li type="circle">Se sugiere realizar optimización en los modelos propuestos para obtener mejores resultados. </li><br> 
   
 <li type="circle">Se sugiere tener o mantener la misma estructura de los informes y de garantizar que las entidades o el universo aplicable a ley de cuotas tengan reportes frecuentes vigencia tras vigencia.</li><br> 
   
