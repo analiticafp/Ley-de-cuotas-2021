@@ -184,7 +184,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
 ```python
   from sklearn.ensemble import RandomForestClassifier
   SEED = 42
-  random_forest_model_0 = RandomForestClassifier(random_state = SEED, n_estimators=2)
+  random_forest_model_0 = RandomForestClassifier(random_state = SEED, n_estimators=7)
   random_forest_model_0.fit(X_train, y_train.values.ravel())
   
   from sklearn.neighbors import KNeighborsClassifier
@@ -205,7 +205,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
   df.to_excel('predicted.xlsx', sheet_name='example')
   ``` 
   
- <p>Si en nuestra observación planteamos los que deben reportar se acerca a 3.327 de 6.319 entidades donde su estado no es “inactivo”.</p>
+ <p>Si en nuestra observación planteamos los que deben reportar se acerca a 3.646 de 6.319 entidades donde su estado no es “inactivo”.</p>
   
  <h3>Análisis resultado del indicador de ley de cuotas en vigencias posteriores - regresión lineal</h3>
 <p>Teniendo en cuenta el reporte de ley de cuotas desde 2004 hasta 2021, se toma el cálculo del porcentaje de participación femenina en niveles decisorios para construir una relación lineal simple. El resultado de la regresión lineal es una ecuación lineal que permite identificar como parámetro de mayor utilidad la pendiente y con ello el aumento porcentual promedio por año del indicador. En los puntos verdes se indica el aumento de la cuota femenina para los años 2022, 2023,2024 y 2025 si se hiciera uso de este modelo.  </p>  
@@ -220,7 +220,7 @@ Como beneficios se pueden mencionar que el desarrollo de estos ejercicios son un
    
 <li type="circle">Aunque existe información desactualziada en el SIGEP, este debería ser tenida en cuanta como la fuente primaria para la generación del indicador</li><br>  
   
-<li type="circle">El modelo entrenado con el algoritmo “KNN” obtuvo una precisión del 85% superior al “Random Forests” lo que permitió clasificar 6.319 entidades encontrando un universo de posibles candidatos a reporte de ley de cuotas donde 3.327 entidades deben reportar. </li><br>
+<li type="circle">El modelo entrenado con el algoritmo “KNN” obtuvo una precisión del 85% igual al “Random Forests” lo que permitió clasificar 6.319 entidades encontrando un universo de posibles candidatos a reporte de ley de cuotas donde 3.646 entidades deben reportar. </li><br>
   
 <li type="circle">La regresión lineal simple presenta importantes limitaciones como herramienta predictiva, sin embargo para el caso de estudio muestra un escenario de aumento constante del indicador de participación femenina en cargos de niveles decisorios, en donde aún así se mantendría por debajo del 50% en los próximos 3 años.</li><br>
 
